@@ -4,15 +4,26 @@
 To write a Python program to build a binary search tree using a built-in function.
 
 # ALGORITHM:
+Start the program.
 
-Start the program. 
-Define _build_bst_from_sorted_values(sorted_values) to recursively build a binary search tree (BST) from a sorted list.
-Define left_subtree(l) to print the left subtree of the BST.
-Take user input for the number of elements and store the values in a list a.
-Sort the list and pass it to _build_bst_from_sorted_values() to construct the BST.
+Define function _build_bst_from_sorted_values(sorted_values) → recursively build a Binary Search Tree (BST) from a sorted list.
+
+Define function left_subtree(l) → print the left subtree of the BST.
+
+Take user input for the number of elements.
+
+Store the values in a list a.
+
+Sort the list a.
+
+Pass the sorted list to _build_bst_from_sorted_values() → construct the BST.
+
 Print the postorder traversal of the BST.
-Call left_subtree(l) to print the left subtree.
-Check whether the tree is a binary search tree using the is_bst property.
+
+Call left_subtree(l) → print the left subtree of the BST.
+
+Check if the tree is a BST using the is_bst property.
+
 End the program.
 # PROGRAM
 ```
