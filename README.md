@@ -6,25 +6,25 @@ To write a Python program to build a binary search tree using a built-in functio
 # ALGORITHM:
 Start the program.
 
-Define function _build_bst_from_sorted_values(sorted_values) → recursively build a Binary Search Tree (BST) from a sorted list.
+1.Define function _build_bst_from_sorted_values(sorted_values) → recursively build a Binary Search Tree (BST) from a sorted list.
 
-Define function left_subtree(l) → print the left subtree of the BST.
+2.Define function left_subtree(l) → print the left subtree of the BST.
 
-Take user input for the number of elements.
+3.Take user input for the number of elements.
 
-Store the values in a list a.
+4.Store the values in a list a.
 
-Sort the list a.
+5.Sort the list a.
 
-Pass the sorted list to _build_bst_from_sorted_values() → construct the BST.
+6.Pass the sorted list to _build_bst_from_sorted_values() → construct the BST.
 
-Print the postorder traversal of the BST.
+7.Print the postorder traversal of the BST.
 
-Call left_subtree(l) → print the left subtree of the BST.
+8.Call left_subtree(l) → print the left subtree of the BST.
 
-Check if the tree is a BST using the is_bst property.
+9.Check if the tree is a BST using the is_bst property.
 
-End the program.
+10.End the program.
 # PROGRAM
 ```
 from binarytree import Node
@@ -88,11 +88,16 @@ To write a Python program to build a binary tree with a root, left, and right no
 
 # ALGORITHM:
 
-Start the program.
-Import the Node class from the binarytree module.
-Create a root node using the Node class and assign a floating-point value.
-Create left and right child nodes for the root with float values.
-Convert the tree to a list and print the list of nodes.
+1.Start the program.
+
+2.Import the Node class from the binarytree module.
+
+3.Create a root node using the Node class and assign a floating-point value.
+
+4.Create left and right child nodes for the root with float values.
+
+5.Convert the tree to a list and print the list of nodes.
+
 End the program.
 
 # PYTHON PROGRAM
@@ -119,11 +124,16 @@ Thus the Python program to build a binary tree with a root, left, and right node
 To write a Python program to build the given expression tree and print the inorder and postorder traversals.
 
 # ALGORITHM
-Start the program.
-Import the required modules (build and Node from binarytree).
-Define a list x representing the expression tree in pre-order fashion (with None for missing nodes).
-Use the build() function to generate the binary tree.
-Print the inorder and postorder traversal of the tree.
+1.Start the program.
+
+2.Import the required modules (build and Node from binarytree).
+
+3.Define a list x representing the expression tree in pre-order fashion (with None for missing nodes).
+
+4.Use the build() function to generate the binary tree.
+
+5.Print the inorder and postorder traversal of the tree.
+
 End the program.
 # PROGRAM:
 ```
@@ -146,11 +156,16 @@ To write a Python program to build a heap tree using appropriate Python package 
 
 # ALGORITHM
 
-Start the program.
-Import the heapq module.
-Define a function heaptree(H) that takes a list H as input.
-Use heapq.heapify(H) to convert the list into a min-heap.
-Print the created heap.
+1.Start the program.
+
+2.Import the heapq module.
+
+3.Define a function heaptree(H) that takes a list H as input.
+
+4.Use heapq.heapify(H) to convert the list into a min-heap.
+
+5.Print the created heap.
+
 End the program.
 # PROGRAM
 ```
@@ -177,15 +192,19 @@ To write a Python program to build and evaluate the given Expression tree.
 
 # ALGORITHM
 
-Start the program.
-Create nodes for operators and operands.
+1.Start the program.
+
+2.Create nodes for operators and operands.
 Build the expression tree by connecting nodes in the correct hierarchical structure.
-Define a recursive function evaluate(root):
+
+3.Define a recursive function evaluate(root):
 If the node is a number (leaf), return it.
-Else, recursively evaluate left and right subtrees.
+
+4.Else, recursively evaluate left and right subtrees.
 Apply the operator at the current node to the results.
 Return the final result from the root node.
-End the program.
+
+5.End the program.
 # PROGRAM
 ```
 class Node:
